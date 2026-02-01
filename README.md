@@ -1,5 +1,13 @@
 Introducing a character-level GPT that learns to babble in the style of Harry Potter. Built with PyTorch.
 
+The file sample_from_model.ipynb can be easily used to sample text from the model defined in the saved_models/ folder.
+
+## Installation
+Install the necessary dependencies using the requirements file:
+```bash
+pip install -r requirements.txt
+```
+
 ### Module Breakdown
 
 *   `model.py`: Contains classes SingleHeadAttention, TransformerBlock, and Transformer built from scratch.

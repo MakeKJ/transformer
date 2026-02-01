@@ -1,3 +1,6 @@
+# Ignore directories
+/venv/
+
 # Ignore files
 *.ipynb
 *.txt
@@ -10,3 +13,4 @@
 !01 Harry Potter and the Sorcerers Stone.txt
 !augmented_hp_1.txt
 !hp_model_cl_256_ed_384_nh_6_nb_6_bs_64_dr_0.2_lr_3e-4_max_iters_5000.pth
+!requirements.txt
