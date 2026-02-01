@@ -2,7 +2,7 @@ Introducing a character-level GPT that learns to babble in the style of Harry Po
 
 The file sample_from_model.ipynb can be easily used to sample text from the model defined in the saved_models/ folder.
 
-## Installation
+### Installation
 Install the necessary dependencies using the requirements file:
 ```bash
 pip install -r requirements.txt
