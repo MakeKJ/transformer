@@ -1,6 +1,8 @@
-Introducing a character-level GPT that learns to babble in the style of Harry Potter. Built with PyTorch.
+A character-level, decoder-only Transformer trained in PyTorch on the first Harry Potter book. The model learns to generate text character by character, producing samples that mimic the style and structure of the magical world of Harry Potter.
 
-The file sample_from_model.ipynb can be easily used to sample text from the model defined in the saved_models/ folder.
+This project was built to gain hands-on experience with Transformer internals, attention mechanisms, and training dynamics by implementing core components from scratch rather than relying on high-level abstractions.
+
+Pretrained models are provided in the saved_models/ directory, and text can be generated using the included notebook sample_from_model.ipynb.
 
 ### Installation
 Install the necessary dependencies using the requirements file:
@@ -12,6 +14,8 @@ pip install -r requirements.txt
 
 *   `model.py`: Contains classes SingleHeadAttention, TransformerBlock, and Transformer built from scratch.
 *   `load_hp_data.py`: Includes a function load_data that loads the text data and makes some augmentations.
+*   `sample_from_model.ipynb`: A notebook that allows sampling from a trained model.
+*   `saved_models/`: Directory containing pretrained models.
 
 ### The model has something magical to say...
 "Midnight," said Harry.
